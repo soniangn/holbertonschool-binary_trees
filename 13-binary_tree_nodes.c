@@ -20,7 +20,7 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 
 	if (tree->right)
 		nnb += binary_tree_nodes(tree->right);
-	
+
 	if (!tree->left && !tree->right)
 		return (0);
 
